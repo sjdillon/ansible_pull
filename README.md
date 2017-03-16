@@ -2,6 +2,15 @@
 
 Simple yum install to test ansible-pull
 
+    sudo yum -y remove wget
+    which wget 
+    sudo yum-config-manager --enable epel
+    sudo yum -y install ansible git
+    sudo sh -c  "echo [local] > /etc/ansible/hosts"; sudo sh -c  "echo 127.0.0.1 >> /etc/ansible/hosts"
+    /usr/bin/ansible-pull -U https://github.com/sjdillon/ansible_pull
+    which wget
+    
+
     /usr/bin/ansible-pull -U https://github.com/sjdillon/ansible_pull
     localhost | SUCCESS => {
         "after": "30b9df33ffea8ebc09341473cee99275a239c533",

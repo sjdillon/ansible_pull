@@ -4,3 +4,4 @@
   tasks:
   - name: install wget
     yum: name=wget state=installed
+    sudo: True

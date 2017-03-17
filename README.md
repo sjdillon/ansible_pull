@@ -1,5 +1,5 @@
 # ansible_pull example
-ansible-pull runs a playbook (pulls) from a git repo and run it locally.  It requires ansible to be installed, an entry in the ansible hosts file and a playbook in a git repo to run
+Ansible is generally used to push changes from a server to other hosts.  Ansible-pull runs a playbook (pulls) from a git repo and run it locally.  It requires ansible to be installed, an entry in the ansible hosts file and a playbook in a git repo to run
 
 ## Purpose
 How to setup and test ansible pull

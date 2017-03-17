@@ -2,7 +2,7 @@
 ansible-pull runs a playbook (pulls) from a git repo and run it locally.  It requires ansible to be installed, an entry in the ansible hosts file and a playbook in a git repo to run
 
 ## Purpose
-Simple yum install to test ansible-pull
+How to setup and test ansible pull
 
 ## Requirements
 ansible  

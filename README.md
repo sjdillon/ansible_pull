@@ -1,7 +1,14 @@
-# ansible_pull.yml
+# ansible_pull
 
+## Purpose
 Simple yum install to test ansible-pull
 
+## Description
+Below will uninstall wget, install ansible, git, setup the ansible hosts file and run ansible-pull to reinstall wget
+
+**NOTE:** The raw commands are to simulate a pre-ansible build tool such as Cloud Formation
+
+### setup:
     sudo yum -y remove wget
     which wget 
     sudo yum-config-manager --enable epel
@@ -10,7 +17,7 @@ Simple yum install to test ansible-pull
     /usr/bin/ansible-pull -U https://github.com/sjdillon/ansible_pull
     which wget
     
-
+### output: 
     /usr/bin/ansible-pull -U https://github.com/sjdillon/ansible_pull
     localhost | SUCCESS => {
         "after": "30b9df33ffea8ebc09341473cee99275a239c533",

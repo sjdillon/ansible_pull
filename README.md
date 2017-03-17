@@ -11,7 +11,7 @@ git
 ## Description
 Below will: 
 - uninstall wget
-- install ansible, git
+- install ansible and git
 - setup the ansible hosts file
 - run ansible-pull to reinstall wget
 
